@@ -127,6 +127,7 @@ int main() {
     std::cout << " > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ <  > ^ < "<< std::endl;
         
     std::cout << "\nWelcome to our robot Info!\nHere we have some of the best robots around!\nIf you would like to browse our assortment, enter anything to continue...\n";                   
+    std::cin.putback('\n');
     std::cin.get();
     std::cin.ignore(10000, '\n');
     clearScreen();
