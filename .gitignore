@@ -54,3 +54,5 @@ Makefile
 *.temp
 Thumbs.db
 .DS_Store
+
+.gitignore
