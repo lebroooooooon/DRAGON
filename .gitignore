@@ -1,0 +1,56 @@
+############################
+# C / C++ Build Artifacts
+############################
+*.exe
+*.out
+*.app
+*.dll
+
+*.o
+*.obj
+*.lo
+
+*.a
+*.lib
+*.so
+
+############################
+# Debug / Intermediate Files
+############################
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.pch
+
+############################
+# Visual Studio / MSVC
+############################
+.vs/
+x64/
+Debug/
+Release/
+*.vcxproj*
+*.sln
+
+############################
+# VS Code
+############################
+.vscode/
+
+############################
+# CMake (optional but safe)
+############################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+############################
+# Logs / Temp / OS junk
+############################
+*.log
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
